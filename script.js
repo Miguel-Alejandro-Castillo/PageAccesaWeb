@@ -44,14 +44,10 @@ function loadLanguaje(lang) {
         case 'download.html':
             if (lang === 'en') {
                 document.getElementById('title-download').textContent = 'Get AccesaWeb';
-                document.getElementById('btn-download').innerHTML = '<i class="bi bi-arrow-down-square"></i> Download installer';
-                document.getElementById('desc-download').innerHTML = '1. Click the "download installer" button<br/> 2. The download will start automatically<br/> 3. Run the installer and give its instructions<br/><br/> Another download option';
                 document.getElementById('btn-download-zip').innerHTML = '<i class="bi bi-file-zip"></i> Download ZIP';
                 document.getElementById('desc-download-zip').innerHTML = '1. Unzip the file<br/> 2. Open the browser extension manager by typing "chrome://extensions/" in the address bar.<br/> 3. If it is disabled, check the "Developer mode" option.<br/> 4. Click on "Load unzipped" and select the AccesaWeb folder.<br/> 5. Done! You now have AccesaWeb in your browser. As a recommendation, you can pin it to the navigation bar and by clicking on the icon <br/> you will enter the AccesaWeb configuration menu.<br/>';
             } else {
                 document.getElementById('title-download').textContent = 'Obtener AccesaWeb';
-                document.getElementById('btn-download').innerHTML = '<i class="bi bi-arrow-down-square"></i> Descargar intalador';
-                document.getElementById('desc-download').innerHTML = ' 1. Haga click en el boton "descargar instalador"<br/> 2. La descarga comenzara automaticamente<br/> 3. Ejecute el instalador y diga sus intrucciones<br/><br/> Otra opción de descarga';
                 document.getElementById('btn-download-zip').innerHTML = '<i class="bi bi-file-zip"></i> Descargar ZIP';
                 document.getElementById('desc-download-zip').innerHTML = '1. Descomprima el archivo<br/> 2. Abra el gestor de extensiones del navegador escribiendo "chrome://extensions/" en la barra de direcciones.<br/> 3. En caso de estar desactivado, marque la opción "Modo desarrollador".<br/> 4. Haz click en "Cargar descomprimido" y seleccione la carpeta AccesaWeb.<br/> 5. ¡Listo! Ya tiene AccesaWeb en su navegador, como recomendacion puede anclarlo a la barra de navegacion y al hacer click sobre el icono <br/> entrará al menu de configuracion de AccesaWeb.<br/>';
             }
