@@ -1,4 +1,16 @@
 
+html, body { 
+    height: 100%; 
+} 
+
+body { 
+    display: flex; 
+    flex-direction: column;
+}
+
+.content { 
+    flex: 1; 
+}
 
 h1 {
     color: #333;
@@ -49,7 +61,7 @@ p {
     background-color:#337ab7;
     color: white;
     text-decoration: none !important;
-
+    padding-bottom: 0rem;
 }
 .text-white:hover{
 color: black !important;
@@ -57,4 +69,8 @@ color: black !important;
 a{
     text-decoration: none !important;
 
+}
+
+.sin-margen-inferior{
+    margin-bottom: 0rem;
 }
